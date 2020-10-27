@@ -3,7 +3,7 @@ Project 1 link
 
 https://codepen.io/DanWright1207/pen/QWEvBEx?editors=1100
 
-Dan Wright
+Dan Wright question answers
 
  1. What is Semantic HTML? 
 It is a markup language used to give meaning to the document
