@@ -1,85 +1,110 @@
    
+Project 1 link
+
+https://codepen.io/DanWright1207/pen/QWEvBEx?editors=1100
+
 Dan Wright
 
  1. What is Semantic HTML? 
-
+It is a markup language used to give meaning to the document
     2. What is HTML used for? 
-
+Used to give meaning to the document
     3. What is an attribute and where do we put it? 
+A special words used inside the opening tag to control the element's behavior
 
     4. What is the h1 tag used for? How many times should I use it on a page?
  It is used for a title, once
 
     5. Name two tags that have required attributes
  image and anchor
+
     6. What do we put in the head of our HTML document? 
-
+Link to any external libraries	
     7. What is an id? 
-
+Its an identifier in the html document	
     8. What elements can I add an id to? 
-
+Anything
     9. How many times can I use the same id on a page? 
-
+Only once
     10. What is a class? 
-
+An identifier
     11. What elements can I add a class to? 
-
+Any html tag
     12. How many times can I use the same class on a page? 
-
+No rule on how many
     13. How do I get my link to open in a new tab?
-
+<a href=“paste your url here” target="_blank">
     14. What is the alt attribute in the image tag used for? 
-
+Context of what the image is
     15. How do I reference an id?
-
+#idname
     16. What is the difference between a section and a div
-
+Div isn't semantic 
     17. What is CSS used for? 
-
+Styling your page
     18. How to we select an element? Example - every h2 on the page
-
+H2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-
+Class used in creating nav bar, id better used on an image
     20. How do we select classes in CSS?
-
+.classname
     21. How do we select a p element with a single class of “human””?
-
-    22. What is a parent child selector? When would this be useful? 
-
+P human {}
+    22. What is a parent child selector?  When would this be useful? 
+Like an attribute ex a inside of nav, useful if wanting to change one part of a section
     23. How do you select all links within a div with the class of sidebar?
-
+.sidebar
     24. What is a pseudo selector?
-
+A pseudo-class is used to define a special state of an element.
     25. What do we use the change the spacing between lines?
-
+Line-height
     26. What do we use to change the spacing between letters?
-
+Letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-
+Text-transform:
     28. How do I add a 1px border around my div that is dotted and black?
-
+Border: dotted black 1px;
     29. How do I select everything on the page? 
-
+*{}
     30. How do I write a comment in CSS?
-
+/* the */ to close
     31. How do I find out what file I am in, when I am using the command line? 
-
+Pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
-
+Ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
+Rm deleted forever, can't recover later
     34. Why should I use version control? 
-
+Keep track of changes
     35. How often should I commit to github?
-
+20min
     36. What is the command we would use to push our repo up to github? 
-
+Git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
-
+1. Fork
+2. Check name in repo
+3.Clone your Repo using githubs 'Clone or download' button
+4.cd command to go to the directory where you want to clone forked repo
+5.use git clone <link-to-repo>
+6.cd into the newly created repo 
+7.git checkout -b first name-lastname
+8.add and commit changes on your branch
+9.push your changes back up to your GitHub repo
+10.submit pull request
+11.Go back to your forked Project repo on github (make sure you are on YOUR FORKED copy NOT the original Lambda one)
+12.Click on the Branch:master button on the left side select your name
+13.Click your name-branch and then click the New pull request button to make a pull request on your name branch
+14. Click dropdown button that says base repository and change it to be your forked repo instead
+15. Click create pull request.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+Inline element is like span, instead of div that pushes to a new line
     2. What happens when an element is positioned absolutely? 
+Stays in that position no matter what the other elements are doing
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block
+ by default
+P, h1, div. / <span>, <a> / 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
